@@ -2,6 +2,10 @@
 
 ## List of clarifications
 
+### Added 2017-11-28
+
+* When you demolish a house, you are to reprint the houses in the block as a way of illustrating to the user that the demolition has been done properly. You should do the same thing when creating an infill.
+
 ### Added 2017-11-27
 
 * For each public method in RadonProcessor, you need a Javadoc comment. The comment only needs a one-sentence summary of **what** (not **how**) the method does, and any @param and @return tags required for that method.

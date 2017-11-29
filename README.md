@@ -2,6 +2,10 @@
 
 ## List of clarifications
 
+### Added 2017-11-29
+
+* When saving back to file, ensure that the radon readings are saved to 5 decimal places. (Recall that a PrintWriter object responds to the same methods as System.out does, so this is an eeeeeeasy task!)
+
 ### Added 2017-11-28
 
 * When you demolish a house, you are to reprint the houses in the block as a way of illustrating to the user that the demolition has been done properly. You should do the same thing when creating an infill.

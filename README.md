@@ -5,6 +5,7 @@
 ### Added 2017-11-29
 
 * When saving back to file, ensure that the radon readings are saved to 5 decimal places. (Recall that a PrintWriter object responds to the same methods as System.out does, so this is an eeeeeeasy task!)
+* The **only** validation that needs to be done is whether the user enters in a 1,2,3,4,5,or 6 at the main menu.
 
 ### Added 2017-11-28
 

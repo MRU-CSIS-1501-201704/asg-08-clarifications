@@ -2,6 +2,12 @@
 
 ## List of clarifications
 
+### Added 2017-11-30
+
+* The houses in the data file will always be in order, with the first and last houses in the data file corresponding to the first and last houses on that block. If an attempt to insert an infill before the first house or after the last house is made, it should fail. If the first or last house is demolished, then the neighbouring houses become the first/last house on the block.
+* Although it could happen in "real life", your application will not need to handle the situation where "half" of an infill is knocked down. (So for example, if we build an infill 204/206, then try to knock down 204 or 206...well, we're gonna have some troubles!) We will only be running tests where a non-infill is being demolished.
+* To get full marks, you will have to create and use your own House class - it does **not** have to have the same public interface as the one provided to you - as long as the public interface you design lets the RadonProcessor do its work properly, life is good.
+
 ### Added 2017-11-29
 
 * When saving back to file, ensure that the radon readings are saved to 5 decimal places. (Recall that a PrintWriter object responds to the same methods as System.out does, so this is an eeeeeeasy task!)

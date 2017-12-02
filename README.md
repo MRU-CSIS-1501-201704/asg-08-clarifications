@@ -2,6 +2,13 @@
 
 ## List of clarifications
 
+
+### Added 2017-12-02
+
+* Houses (and "empty lots" available for infills) will only be on the **odd** side of the street; the first house (or first available location for building an infill) will always be blahblah**01**. (For example 1501, 101, 3701, etc.)
+* When demolishing a house, the **only** error checking you need to do is to see whether a house with that number exists or not. (i.e. whether a house with the given number exists in the ArrayList.)
+
+
 ### Added 2017-11-30
 
 * Opening up the current data1.txt file on a Windows machine will typically default to using the Notepad application...which will show everything on one line. (This is because of the line endings used in this file.) To get a more reasonalbe view of the data, please open it in Wordpad (which is included in Windows) or similar app.
@@ -17,7 +24,8 @@
 
 ### Added 2017-11-28
 
-* When you demolish a house, you are to reprint the houses in the block as a way of illustrating to the user that the demolition has been done properly. You should do the same thing when creating an infill.
+* <del>When you demolish a house, you are to reprint the houses in the block as a way of illustrating to the user that the demolition has been done properly. You should do the same thing when creating an infill.</del>
+ * **correction 2017-12-02** We have decided to have the automated tests do the reprinting instead (by selecting menu option 1). Your demolition and infill code should only print out a success or failure message.
 
 ### Added 2017-11-27
 

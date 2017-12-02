@@ -33,3 +33,15 @@
 * The application should only exit when the user signals that they want to quit through the menu.
 * All the houses are assumed to be on the street called "Rue Marie Curie". When you load house info from data file, make sure the houses loaded are on that street.
 * You are told that in the `RadonProcessor` class, there should be a way to "print the details for **each** house". This should instead read "print the details for **a** house". This method will need to have a house number to find as a parameter.
+
+
+## Hints for error messages
+
+In order for your code to pass the automated tests, the following must be true of your program's error messages:
+
+* If the user enters in an invalid menu option (like "foo" or "8"), your error message should contain the phrase **illegal choice**.
+ * Ex. "That was an illegal choice. Please enter a number between 1 and 6."
+* (Menu Option 2, 3) If the user enters in a house number, but no such house exists, your error message should contain the phrase **no house**.
+ * Ex. "No house with that number exists."
+* (Menu Option 4) If the user enters in a number for an infill, but a house already exists there, your error message should contain the phrase **not vacant**.
+ * Ex. "You can't put an infill there; the location is not vacant."

@@ -2,6 +2,9 @@
 
 ## List of clarifications
 
+### Added 2017-12-03
+
+* You can assume that if an infill is built in the middle of the block, the tests will only do so if there are houses on either side of the infill. (This makes calculating the infill's basements' radon levels less of a pain.)
 
 ### Added 2017-12-02
 

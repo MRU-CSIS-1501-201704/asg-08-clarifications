@@ -43,10 +43,10 @@
 In order for your code to pass the automated tests, the following must be true of your program's error messages:
 
 * If the user enters in an invalid menu option (like "foo" or "8"), your error message should contain the phrase **illegal choice**.
- * Ex. "That was an illegal choice. Please enter a number between 1 and 6."
+    * Ex. "That was an illegal choice. Please enter a number between 1 and 6."
 * (Menu Option 2, 3) If the user enters in a house number, but no such house exists, your error message should contain the phrase **no house**.
- * Ex. "No house with that number exists."
+    * Ex. "No house with that number exists."
 * (Menu Option 4) If the user enters in a number for an infill, but that number isn't a possible house number on the street, then your error message should contain the phrase **not a valid house number for this block**.
- * Ex. "Can't build an infill there - it is not a valid house number for this block."
+    * Ex. "Can't build an infill there - it is not a valid house number for this block."
 * (Menu Option 4) If the user enters in a number for an infill, but a house already exists there, your error message should contain the phrase **not vacant**.
- * Ex. "You can't put an infill there; the location is not vacant."
+    * Ex. "You can't put an infill there; the location is not vacant."

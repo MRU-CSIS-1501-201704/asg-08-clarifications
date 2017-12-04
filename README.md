@@ -9,6 +9,7 @@
 ### Added 2017-12-02
 
 * Houses (and "empty lots" available for infills) will only be on the **odd** side of the street; the first house (or first available location for building an infill) will always be blahblah**01**. (For example 1501, 101, 3701, etc.)
+    * **clarification of this clarification** Though we will not try to build a house **before** xxx01, your code should be able to handle situations where an infill built **after** xxx01 might become the first house! (For example, say 1509 is currently the first house. Then if an infill is put up at 1505/1507, then it will become the first house...and you have to make sure you handle calculation of the avg daily Radon readings in that infill correctly!) 
 * When demolishing a house, the **only** error checking you need to do is to see whether a house with that number exists or not. (i.e. whether a house with the given number exists in the ArrayList.)
 
 
